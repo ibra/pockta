@@ -1,0 +1,192 @@
+15:24:25.630: Platform: Wayland
+15:24:25.630: CPU Name: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+15:24:25.630: CPU Speed: 3500.003MHz
+15:24:25.630: Physical Cores: 2, Logical Cores: 4
+15:24:25.630: Physical Memory: 15863MB Total, 12892MB Free
+15:24:25.630: Kernel Version: Linux 6.7.6-arch1-2
+15:24:25.630: Distribution: "Arch Linux" Unknown
+15:24:25.630: Desktop Environment: Hyprland ()
+15:24:25.630: Session Type: wayland
+15:24:25.632: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+15:24:25.632: Portable mode: false
+15:24:25.661: OBS 30.0.2-4 (linux)
+15:24:25.661: ---------------------------------
+15:24:25.662: ---------------------------------
+15:24:25.662: audio settings reset:
+15:24:25.662: 	samples per sec: 48000
+15:24:25.662: 	speakers:        2
+15:24:25.662: 	max buffering:   960 milliseconds
+15:24:25.662: 	buffering type:  dynamically increasing
+15:24:25.663: ---------------------------------
+15:24:25.663: Initializing OpenGL...
+15:24:25.663: Using EGL/Wayland
+15:24:25.707: Initialized EGL 1.5
+15:24:25.723: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 620 (KBL GT2)
+15:24:25.723: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.2-arch1.1, shading language 4.60
+15:24:25.756: ---------------------------------
+15:24:25.756: video settings reset:
+15:24:25.756: 	base resolution:   1366x768
+15:24:25.756: 	output resolution: 852x480
+15:24:25.756: 	downscale filter:  Bicubic
+15:24:25.756: 	fps:               30/1
+15:24:25.756: 	format:            NV12
+15:24:25.756: 	YUV mode:          Rec. 709/Partial
+15:24:25.756: NV12 texture support not available
+15:24:25.756: P010 texture support not available
+15:24:25.760: Audio monitoring device:
+15:24:25.760: 	name: Default
+15:24:25.760: 	id: default
+15:24:25.760: ---------------------------------
+15:24:25.767: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:24:25.774: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:24:25.781: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:24:25.781: Failed to initialize module 'decklink.so'
+15:24:25.912: [pipewire] Available captures:
+15:24:25.912: [pipewire]     - Desktop capture
+15:24:25.912: [pipewire]     - Window capture
+15:24:25.932: v4l2loopback not installed, virtual camera disabled
+15:24:26.908: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+15:24:26.908: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+15:24:26.908: FFmpeg VAAPI H264 encoding not supported
+15:24:26.908: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+15:24:26.908: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+15:24:26.908: FFmpeg VAAPI HEVC encoding not supported
+15:24:27.022: ---------------------------------
+15:24:27.022:   Loaded Modules:
+15:24:27.022:     text-freetype2.so
+15:24:27.022:     rtmp-services.so
+15:24:27.022:     obs-x264.so
+15:24:27.022:     obs-webrtc.so
+15:24:27.022:     obs-vst.so
+15:24:27.023:     obs-transitions.so
+15:24:27.023:     obs-qsv11.so
+15:24:27.023:     obs-outputs.so
+15:24:27.023:     obs-libfdk.so
+15:24:27.023:     obs-filters.so
+15:24:27.023:     obs-ffmpeg.so
+15:24:27.023:     linux-v4l2.so
+15:24:27.023:     linux-pulseaudio.so
+15:24:27.023:     linux-pipewire.so
+15:24:27.023:     linux-jack.so
+15:24:27.023:     linux-capture.so
+15:24:27.023:     linux-alsa.so
+15:24:27.023:     image-source.so
+15:24:27.023:     frontend-tools.so
+15:24:27.023:     decklink-output-ui.so
+15:24:27.023:     decklink-captions.so
+15:24:27.023: ---------------------------------
+15:24:27.023: ==== Startup complete ===============================================
+15:24:27.075: All scene data cleared
+15:24:27.075: ------------------------------------------------
+15:24:27.077: PipeWire initialized
+15:24:27.078: Switched to scene 'Scene'
+15:24:27.078: ------------------------------------------------
+15:24:27.078: Loaded scenes:
+15:24:27.078: - scene 'Scene':
+15:24:27.078:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+15:24:27.078: ------------------------------------------------
+15:24:27.110: [pipewire] Screencast session created
+15:24:31.055: [pipewire] Asking for desktop
+15:24:31.058: [pipewire] desktop selected, setting up screencast
+15:24:31.064: [pipewire] Server version: 1.0.3
+15:24:31.064: [pipewire] Library version: 1.0.3
+15:24:31.064: [pipewire] Header version: 1.0.3
+15:24:31.064: [pipewire] Created stream 0x60eac636d780
+15:24:31.064: [pipewire] Stream 0x60eac636d780 state: "connecting" (error: none)
+15:24:31.064: [pipewire] Playing stream 0x60eac636d780
+15:24:31.064: [pipewire] Stream 0x60eac636d780 state: "paused" (error: none)
+15:24:31.067: [pipewire] Negotiated format:
+15:24:31.067: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+15:24:31.067: [pipewire]     Modifier: 0x0
+15:24:31.067: [pipewire]     Size: 1366x768
+15:24:31.067: [pipewire]     Framerate: 0/1
+15:24:31.068: [pipewire] Negotiated format:
+15:24:31.068: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+15:24:31.069: [pipewire]     Modifier: 0x100000000000004
+15:24:31.069: [pipewire]     Size: 1366x768
+15:24:31.069: [pipewire]     Framerate: 0/1
+15:24:31.075: [pipewire] Stream 0x60eac636d780 state: "streaming" (error: none)
+15:24:31.084: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+15:24:31.084: [pipewire] Renegotiating stream
+15:24:31.085: [pipewire] Negotiated format:
+15:24:31.085: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+15:24:31.085: [pipewire]     Modifier: 0x100000000000004
+15:24:31.085: [pipewire]     Size: 1366x768
+15:24:31.085: [pipewire]     Framerate: 0/1
+15:24:31.087: [pipewire] Negotiated format:
+15:24:31.087: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+15:24:31.087: [pipewire]     Modifier: 0x100000000000002
+15:24:31.087: [pipewire]     Size: 1366x768
+15:24:31.087: [pipewire]     Framerate: 0/1
+15:26:49.227: Number of remaining views: 1
+15:26:49.227: ---------------------------------
+15:26:49.227: video settings reset:
+15:26:49.227: 	base resolution:   1366x768
+15:26:49.227: 	output resolution: 1364x768
+15:26:49.227: 	downscale filter:  Bicubic
+15:26:49.227: 	fps:               30/1
+15:26:49.227: 	format:            NV12
+15:26:49.227: 	YUV mode:          Rec. 709/Partial
+15:26:49.227: NV12 texture support not available
+15:26:49.227: P010 texture support not available
+15:26:49.256: Settings changed (video)
+15:26:49.256: ------------------------------------------------
+15:27:14.601: Settings changed (outputs)
+15:27:14.601: ------------------------------------------------
+15:27:20.137: Settings changed (outputs)
+15:27:20.137: ------------------------------------------------
+15:27:55.378: Starting recording due to hotkey
+15:27:55.383: ---------------------------------
+15:27:55.383: [x264 encoder: 'simple_video_recording'] preset: veryfast
+15:27:55.383: [x264 encoder: 'simple_video_recording'] profile: high
+15:27:55.383: [x264 encoder: 'simple_video_recording'] settings:
+15:27:55.383: 	rate_control: CRF
+15:27:55.383: 	bitrate:      0
+15:27:55.383: 	buffer size:  0
+15:27:55.383: 	crf:          21
+15:27:55.383: 	fps_num:      30
+15:27:55.383: 	fps_den:      1
+15:27:55.383: 	width:        1364
+15:27:55.383: 	height:       768
+15:27:55.383: 	keyint:       250
+15:27:55.383: 
+15:27:55.402: libfdk_aac encoder created
+15:27:55.402: libfdk_aac bitrate: 192, channels: 2
+15:27:55.408: ==== Recording Start ===============================================
+15:27:55.408: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ibra/Videos/2024-03-02 15-27-55.mp4'...
+15:27:55.415: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+15:28:00.763: Stopping recording due to hotkey
+15:28:01.503: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ibra/Videos/2024-03-02 15-27-55.mp4' stopped
+15:28:01.503: Output 'simple_file_output': stopping
+15:28:01.503: Output 'simple_file_output': Total frames output: 162
+15:28:01.503: Output 'simple_file_output': Total drawn frames: 183
+15:28:01.504: ==== Recording Stop ================================================
+15:28:01.542: libfdk_aac encoder destroyed
+15:28:02.029: Starting recording due to hotkey
+15:28:02.034: ---------------------------------
+15:28:02.034: [x264 encoder: 'simple_video_recording'] preset: veryfast
+15:28:02.034: [x264 encoder: 'simple_video_recording'] profile: high
+15:28:02.034: [x264 encoder: 'simple_video_recording'] settings:
+15:28:02.034: 	rate_control: CRF
+15:28:02.034: 	bitrate:      0
+15:28:02.034: 	buffer size:  0
+15:28:02.034: 	crf:          21
+15:28:02.034: 	fps_num:      30
+15:28:02.034: 	fps_den:      1
+15:28:02.034: 	width:        1364
+15:28:02.034: 	height:       768
+15:28:02.034: 	keyint:       250
+15:28:02.034: 
+15:28:02.049: libfdk_aac encoder created
+15:28:02.049: libfdk_aac bitrate: 192, channels: 2
+15:28:02.054: ==== Recording Start ===============================================
+15:28:02.054: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ibra/Videos/2024-03-02 15-28-02.mp4'...
+15:28:02.063: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+15:28:19.446: Stopping recording due to hotkey
+15:28:20.168: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ibra/Videos/2024-03-02 15-28-02.mp4' stopped
+15:28:20.168: Output 'simple_file_output': stopping
+15:28:20.168: Output 'simple_file_output': Total frames output: 523
+15:28:20.168: Output 'simple_file_output': Total drawn frames: 544
+15:28:20.168: ==== Recording Stop ================================================
+15:28:20.179: libfdk_aac encoder destroyed
+15:32:51.670: The Wayland connection broke. Did the Wayland compositor die?
