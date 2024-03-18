@@ -6,7 +6,6 @@
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "pulseaudio", "backlight", "network", "custom/updates"],
-    "modules-center": ["hyprland/window"],
     "modules-right": ["clock", "cpu", "memory","battery", "tray"],
     
     // Modules configuration
@@ -38,11 +37,6 @@
             "unlocked": ""
         }
     },
-    "hyprland/window": {
-        "max-length": 50,
-        "separate-outputs": true
-    },
-    
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },
