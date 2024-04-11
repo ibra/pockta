@@ -1,0 +1,5 @@
+[Default Applications]
+application/octet-stream=kitty.desktop
+
+[Added Associations]
+application/octet-stream=kitty.desktop;
