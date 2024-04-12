@@ -2,10 +2,10 @@
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 42, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
+    "width": 1280, // Waybar width
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "pulseaudio", "backlight", "network", "custom/updates"],
+    "modules-left": ["hyprland/workspaces", "pulseaudio", "backlight", "custom/updates"],
     "modules-right": ["clock", "cpu", "memory","battery", "tray"],
     
     // Modules configuration
@@ -80,14 +80,15 @@
     },
 
     "clock": {
-        // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
+
     "cpu": {
         "format": "{usage}% ",
         "tooltip": false
     },
+
     "memory": {
         "format": "{}% "
     },
@@ -102,7 +103,7 @@
         "states": {
             "good": 95,
             "warning": 30,
-            "critical": 15
+            "critical": 5
         },
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% 🗲",
@@ -112,6 +113,7 @@
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
     },
+
     "battery#bat2": {
         "bat": "BAT2"
     },

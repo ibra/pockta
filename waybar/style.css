@@ -21,11 +21,15 @@
 }
 
 #waybar {
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: 'Liberation', sans-serif;
+	padding: 0px 5px 0px 5px;
+
 	font-size: 1.2em;
 	font-weight: 400;
-  color: @base04;
-  background: @base01;
+	color: @base04;
+	background: @base01;
+	
+      
 }
 
 #workspaces {

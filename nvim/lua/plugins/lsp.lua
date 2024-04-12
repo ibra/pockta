@@ -14,13 +14,14 @@ return {
 			"RRethy/vim-illuminate",
 			"hrsh7th/cmp-nvim-lsp",
 		},
+
 		config = function()
 			-- Set up Mason before anything else
 			require("mason").setup()
 			require("mason-lspconfig").setup({
 				ensure_installed = {
 					"lua_ls",
-					"pylsp",
+					"pylsp"
 				},
 				automatic_installation = true,
 			})
@@ -35,7 +36,7 @@ return {
 			require("fidget").setup()
 
 			-- Set up cool signs for diagnostics
-			local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
+			local signs = { Error = "X", Warn = " ", Hint = " ", Info = " " }
 			for type, icon in pairs(signs) do
 				local hl = "DiagnosticSign" .. type
 				vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
