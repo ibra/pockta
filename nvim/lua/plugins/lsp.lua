@@ -21,9 +21,15 @@ return {
 			require("mason-lspconfig").setup({
 				ensure_installed = {
 					"lua_ls",
-					"pylsp"
+					"pylsp",
 				},
 				automatic_installation = true,
+			})
+
+			require("mason-lspconfig").setup_handlers({
+				function(server_name)
+					require("lspconfig")[server_name].setup({ on_attach = on_attach, capabilities = capabilities })
+				end,
 			})
 
 			-- Quick access via keymap

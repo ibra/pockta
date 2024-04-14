@@ -1,6 +1,6 @@
 @define-color base00 #181818;
-@define-color base01 #2b2e37;
-@define-color base02 #3b3e47;
+@define-color base01 #1a1110;
+@define-color base02 #141414;
 @define-color base03 #585858;
 @define-color base04 #b8b8b8;
 @define-color base05 #d8d8d8;
@@ -25,9 +25,9 @@
 	padding: 0px 5px 0px 5px;
 
 	font-size: 1.2em;
-	font-weight: 400;
+	font-weight: 800;
 	color: @base04;
-	background: @base01;
+	background: rgba(26,17,16,0.75);
 	
       
 }
@@ -61,7 +61,7 @@
 }
 
 #tray * {
-  padding: 0 6px;
+  padding: 0 10px;
   border-left: 1px solid @base00;
 }
 
@@ -71,7 +71,7 @@
 
 #mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-updates, #custom-weather, #custom-mail, #clock, #temperature, #language{
   margin: 5px 2px;
-  padding: 0 8px;
+  padding: 0 5px;
   background-color: @base02;
   border-radius: 5px;
   min-width: 25px;
@@ -97,8 +97,8 @@
 
 #window {
   font-size: 0.9em;
-	font-weight: 400;
-	font-family: sans-serif;
+  font-weight: 400;
+  font-family: sans-serif;
 }
 
 #language {

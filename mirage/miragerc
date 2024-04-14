@@ -1,5 +1,5 @@
 [window]
-w = 1320
+w = 652
 h = 680
 toolbar = True
 statusbar = True
@@ -13,7 +13,7 @@ bgcolor-blue = 0
 open_all = True
 hidden = False
 use_last_dir = True
-last_dir = /home/ibra
+last_dir = /home/ibra/Pictures/Wallpapers
 fixed_dir = /home/ibra
 open_mode = 0
 last_mode = 0
@@ -51,5 +51,11 @@ shortcuts[3] = <Control><Alt>f
 batch[3] = False
 
 [recent]
-num_recent = 0
+num_recent = 3
+num[0] = 45
+urls[0,0] = /usr/share/sddm/themes/Elegant/background.jpg
+num[1] = 42
+urls[1,0] = /usr/share/sddm/themes/Elegant/preview.png
+num[2] = 36
+urls[2,0] = /home/ibra/Pictures/Wallpapers/1.jpg
 
