@@ -1,9 +1,9 @@
 * {
-   font-family: "iA Writer Quattro S", monospace;
+   font-family: "Liberation", sans-serif;
 }
 
 window {
-    background-color: #2B2E37;
+    background-color: rgba(26,17,16,0.75);
     border-radius: 10px;
 }
 
@@ -11,18 +11,19 @@ window {
     margin: 5px;
     border-radius: 0px;
     border: none;
-    background-color: #3B3E47;
     color: white;
+
+    background-color: rgba(26,17,16,0.75);
 }
 
 #inner-box {
-    background-color: #383C4A;
+    background-color: rgba(26,17,16,0.75);
 }
 
 #outer-box {
     margin: 2px;
     padding: 10px;
-    background-color: #383C4A;
+    background-color: rgba(26,17,16,0.75);
 }
 
 #scroll {
@@ -30,12 +31,12 @@ window {
 }
 
 #text {
-    padding: 4px;
+    padding: 5px;
     color: white;
 }
 
-#entry:nth-child(even){
-    background-color: #404552;
+#entry{
+    background-color: rgba(0,0,0,0.8);
 }
 
 #entry:selected {
